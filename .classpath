@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DSS/lib/resources.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DSS/lib/classes.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DPS/lib/resources.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DPS/lib/classes.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DAS/lib/resources.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DAS/lib/classes.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DAS/lib/servlet.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DAS/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DAS/lib/ice.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DAS/lib/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DAS/lib/spring-aop-1.2-rc1.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DAS/lib/jline-0.9.94.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DAS/lib/validation-api-1.0.0.GA.jar"/>
+	<classpathentry kind="lib" path="/home/oracle/dependencies/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="/home/oracle/dependencies/aopalliance-1.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/oracle/dependencies/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/oracle/dependencies/spring-aop-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/oracle/dependencies/spring-beans-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/oracle/dependencies/spring-context-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/oracle/dependencies/spring-expression-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/oracle/dependencies/spring-web-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/oracle/dependencies/spring-webmvc-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/oracle/dependencies/spring-core-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/SpringRESTProject/lib/jackson-annotations-2.5.0.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/SpringRESTProject/lib/jackson-core-2.5.0.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/SpringRESTProject/lib/jackson-databind-2.5.0.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/SpringRESTProject/lib/validation-api-1.1.0.Final.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

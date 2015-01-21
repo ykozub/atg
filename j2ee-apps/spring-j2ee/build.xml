@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="{APP-NAME}" default="build.ear">
+
+<target name="build.war">
+
+ 	<war destfile="/app/oracle/product/atg/ATG/SpringRESTProject/j2ee-apps/spring-web.war" update="true" webxml="/app/oracle/product/atg/ATG/SpringRESTProject/j2ee-apps/spring-j2ee/spring-web.war/WEB-INF/web.xml">
+	<fileset dir="/app/oracle/product/atg/ATG/SpringRESTProject/j2ee-apps/spring-j2ee/spring-web.war">
+		<include name="**/*"/>
+		<exclude name="WEB-INF/web.xml"/>
+	</fileset>
+	</war>
+	<!--<place-holder-for-war-task/>-->
+ </target>
+
+<target name="build.ear" depends="build.war">
+  <ear destfile="/app/oracle/product/atg/ATG/SpringRESTProject/j2ee-apps/spring-j2ee.ear" appxml="/app/oracle/product/atg/ATG/SpringRESTProject/j2ee-apps/spring-j2ee/META-INF/application.xml">
+    <metainf dir="/app/oracle/product/atg/ATG/SpringRESTProject/j2ee-apps/spring-j2ee/META-INF" includes="DYNAMO-INF/**/*"/>
+    <fileset dir="/app/oracle/product/atg/ATG/SpringRESTProject/j2ee-apps" includes="*.war,*.jar"/>
+  </ear>
+</target>
+</project>
+<!-- @version $Id: //product/Eclipse/version/10.2/plugins/atg.project/templates/build.xml#1 $$Change: 735822 $ -->

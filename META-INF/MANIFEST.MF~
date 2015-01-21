@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+ATG-Config-Path: config/
+ATG-Required: DafEar.Admin
+ATG-J2EE: j2ee-apps/spring-j2ee
+ATG-EAR-Module: j2ee-apps/spring-j2ee
+ATG-Class-Path: bin	lib/aopalliance-1.0.jar	lib/commons-logging-1.1.1.jar lib/spring-core-4.0.0.RELEASE.jar lib/spring-aop-4.0.0.RELEASE.jar lib/spring-beans-4.0.0.RELEASE.jar lib/spring-context-4.0.0.RELEASE.jar lib/spring-expression-4.0.0.RELEASE.jar lib/spring-web-4.0.0.RELEASE.jar	lib/spring-webmvc-4.0.0.RELEASE.jar
